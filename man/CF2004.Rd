@@ -2,7 +2,7 @@
 \alias{CF2004}
 \title{Body Mass Estimates Using Christiansen and Farina 2004}
 \description{This function is meant for bipedal mass estimate (in particular theropod dinosaurs) and presently only estimates body mass based on the femoral circumference equation of Christiansen and Farina (2004) derived from volumetric reconstructions of theropod dinosaurs}
-\usage{CF2004(FC, data=NULL)}
+\usage{CF2004(FC, data = NULL)}
 \arguments{
   \item{FC}{a value or vector representing femoral circumference (in mm)}
   \item{data}{an optional object of class = "data.frame" or "matrix"}
@@ -14,10 +14,14 @@
 \author{Nicolas E. Campione}
 \references{
 	Christiansen, P. and Farina, R. A. (2004) Mass prediction in theropod dinosaurs. Historical Biology, 16, 85-92.
-}\seealso{
-	\code{\link{MASSTIMATE}}
-	\code{\link{MCF2004}}
+}
+\seealso{
+	\code{\link{cQE}}
+	\code{\link{AHR1985}}
+  \code{\link{CM1992}}
 }
 \examples{
-##No current examples
+##Bipedal dinosaurs
+data(dinosbip)
+CF2004(dinosbip$FC, data = dinosbip)
 }

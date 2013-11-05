@@ -7,9 +7,9 @@
 \format{
   A data frame with 8 observations on the following 3 variables.
   \describe{
-    \item{\code{Species}}{a factor with levels \code{Brachiosaurs} \code{Corythosaurus} \code{Diplodocus} \code{Iguanodon} \code{Protoceratops} \code{Stegosaurus} \code{Styracosaurus} \code{Triceratops}}
-    \item{\code{HC}}{a numeric vector}
-    \item{\code{FC}}{a numeric vector}
+    \item{\code{Taxon}}{a factor with levels \code{Brachiosaurs} \code{Corythosaurus} \code{Diplodocus} \code{Iguanodon} \code{Protoceratops} \code{Stegosaurus} \code{Styracosaurus} \code{Triceratops}}
+    \item{\code{HC}}{a numeric vector of humeral circumferences}
+    \item{\code{FC}}{a numeric vector of femoral circumferences}
   }
 }
 \source{
