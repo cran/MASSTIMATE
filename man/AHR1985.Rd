@@ -2,9 +2,7 @@
 \alias{AHR1985}
 \title{Body Mass Estimates Using Anderson el at 1985}
 \description{This function estimates body mass based on humeral and/or femoral circumferences using the quadrupedal and bipedal equations of Anderson et al. (1985)}
-\usage{
-AHR1985(HC=NULL, FC, equation=c("bip", "quad"), data=NULL)
-}
+\usage{AHR1985(HC = NULL, FC, equation = c("bip", "quad"), data=NULL)}
 \arguments{
   \item{HC}{an optional value or vector representing humeral circumference (in mm)}
   \item{FC}{a value or vector representing femoral circumference (in mm)}
@@ -18,15 +16,20 @@ AHR1985(HC=NULL, FC, equation=c("bip", "quad"), data=NULL)
 \author{Nicolas E. Campione}
 \references{
 	Anderson, J. F., Hall-Martin, A. and Russell, D.A. (1985) Long-bone circumference and weight in mammals, birds and dinosaurs. Journal of the Zoological Society of London A, 207, 53-61.
-	Campione, N. E. and Evans, D. C. (2012) A universal scaling relationship between body mass and proximal limb bone dimensions in quadrupedal terrestrial tetrapods. BMC Biology, 10, 60.
 }
 \seealso{
-	\code{\link{MASSTIMATE}}
+	\code{\link{QE}}
+  \code{\link{cQE}}
 	\code{\link{CM1992}}
+  \code{\link{CF2004}}
+  \code{\link{MCF2004}}
 }
 \examples{
-##Dinosaur data from Campione and Evans (2012) for quadrupedal dinosaurs
+##Quadrupedal dinosaurs
 data(dinos)
-dinos<-AHR1985(dinos[,2], dinos[,3], equation = "quad", data = dinos)
-dinos
+AHR1985(dinos$HC, dinos$FC, equation = "quad", data = dinos)
+
+##Bipedal dinosaurs
+data(dinosbip)
+AHR1985(HC=NULL, dinosbip$FC, equation = "bip", data = dinosbip)
 }
