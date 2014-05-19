@@ -5,7 +5,7 @@
 \description{Humeral and Femoral circumference data for eight quadrupedal dinosaurs}
 \usage{data(dinos)}
 \format{
-  A data frame with 8 observations on the following 3 variables.
+  A data frame with 8 observations and the following 3 variables.
   \describe{
     \item{\code{Taxon}}{a factor with levels \code{Brachiosaurs} \code{Corythosaurus} \code{Diplodocus} \code{Iguanodon} \code{Protoceratops} \code{Stegosaurus} \code{Styracosaurus} \code{Triceratops}}
     \item{\code{HC}}{a numeric vector of humeral circumferences}

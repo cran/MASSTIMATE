@@ -1,15 +1,15 @@
 \name{CM1992}
 \alias{CM1992}
-\title{Body Mass Estimates Using Campbell and Marcus 1992}
+\title{Body Mass Estimates Using Campbell and Marcus (1992)}
 \description{This function estimates body mass based on femoral circumference using the avian equation of Campbell and Marcus (1992)}
 \usage{CM1992(FC, data = NULL)}
 \arguments{
   \item{FC}{a value of vector representing femoral circumference (in mm)}
-  \item{data}{an optional object of class = "data.frame" or "matrix"}
+  \item{data}{an optional object of \code{class = "data.frame"} or \code{class = "matrix"}}
 }
 \details{If a data object is specified, the mass estiamtes will be added as a column to the data.frame or matrix within that object.}
 \value{
-	\item{estimate.CM1992}{A numeric value or vector representing the mass estimate(s) in grams}
+	\item{CM1992}{A numeric value or vector representing the mass estimate(s) in grams}
 }
 \author{Nicolas E. Campione}
 \references{
@@ -17,6 +17,7 @@
 }
 \seealso{
 	\code{\link{cQE}}
+  \code{\link{bipeds}}
 	\code{\link{AHR1985}}
   \code{\link{CF2004}}
 }

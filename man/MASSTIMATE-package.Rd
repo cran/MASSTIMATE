@@ -7,8 +7,8 @@
 \tabular{ll}{
 Package: \tab MASSTIMATE\cr
 Type: \tab Package\cr
-Version: \tab 1.1\cr
-Date: \tab 2013-11-05\cr
+Version: \tab 1.2\cr
+Date: \tab 2014-05-21\cr
 License: \tab GPL(>= 2)\cr
 }
 }
@@ -24,7 +24,7 @@ Campbell Jr., K.E. and Marcus, L. (1992) The relationships of hindlimb bone dime
 
 Campione, N. E. and Evans, D. C. (2012) A universal scaling relationship between body mass and proximal limb bone dimensions in quadrupedal terrestrial tetrapods. BMC Biology, 10, 60.
 
-Campione, N. E., Evans, D. C., Brown, C. M. and Carrano, M. T. (in prep) A mathematically-derived equation for estimating body mass in terrestrial bipedal tetrapods.
+Campione, N. E., Evans, D. C., Brown, C. M. and Carrano, M. T. (in review) Body mass estimation in non-avian bipeds using a theoretical conversion to quadruped stylopodial proportions. Methods in Ecology and Evolution.
 
 Christiansen, P. and Fari??a, R. A. (2004) Mass prediction in theropod dinosaurs. Historical Biology, 16, 85-92.
 
