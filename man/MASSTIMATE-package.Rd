@@ -7,8 +7,8 @@
 \tabular{ll}{
 Package: \tab MASSTIMATE\cr
 Type: \tab Package\cr
-Version: \tab 1.2\cr
-Date: \tab 2014-05-21\cr
+Version: \tab 1.3\cr
+Date: \tab 2016-01-13\cr
 License: \tab GPL(>= 2)\cr
 }
 }
@@ -24,10 +24,12 @@ Campbell Jr., K.E. and Marcus, L. (1992) The relationships of hindlimb bone dime
 
 Campione, N. E. and Evans, D. C. (2012) A universal scaling relationship between body mass and proximal limb bone dimensions in quadrupedal terrestrial tetrapods. BMC Biology, 10, 60.
 
-Campione, N. E., Evans, D. C., Brown, C. M. and Carrano, M. T. (in review) Body mass estimation in non-avian bipeds using a theoretical conversion to quadruped stylopodial proportions. Methods in Ecology and Evolution.
+Campione, N. E., Evans, D. C., Brown, C. M. and Carrano, M. T. (2014) Body mass estimation in non-avian bipeds using a theoretical conversion to quadruped stylopodial proportions. Methods in Ecology and Evolution, 5(9), 913-923.
 
-Christiansen, P. and Fari??a, R. A. (2004) Mass prediction in theropod dinosaurs. Historical Biology, 16, 85-92.
+Campione, N. E. (in review) Extrapolation of a universal scaling relationship for estimating body masses in extinct terrestrial vertebrates.
 
-Mazzetta, G. V., Christiansen, P. and Fari??a, R. A. (2004) Giants and bizzares: body size of some southern South American Cretaceous dinosaurs. Historical Biology, 16, 71-83.
+Christiansen, P. and Farina, R. A. (2004) Mass prediction in theropod dinosaurs. Historical Biology, 16, 85-92.
+
+Mazzetta, G. V., Christiansen, P. and Farina, R. A. (2004) Giants and bizzares: body size of some southern South American Cretaceous dinosaurs. Historical Biology, 16, 71-83.
 }
 \keyword{ package }

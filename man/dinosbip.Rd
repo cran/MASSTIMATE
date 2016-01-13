@@ -1,7 +1,7 @@
 \name{dinosbip}
 \alias{dinosbip}
 \docType{data}
-\title{Dinosaur data from Campione et al. (in review)}
+\title{Dinosaur data from Campione et al. (2014)}
 \description{Femoral circumference data for 34 bipedal dinosaurs}
 \usage{data(dinosbip)}
 \format{
@@ -13,5 +13,5 @@
   }
 }
 \source{
-  Campione, N. E., Evans, D. C., Brown, C. M. and Carrano, M. T. (in review) Body mass estimation in non-avian bipeds using a theoretical conversion to quadruped stylopodial proportions. Methods in Ecology and Evolution.
+  	Campione, N. E., Evans, D. C., Brown, C. M. and Carrano, M. T. (2014) Body mass estimation in non-avian bipeds using a theoretical conversion to quadruped stylopodial proportions. Methods in Ecology and Evolution, 5(9), 913-923.
 }
