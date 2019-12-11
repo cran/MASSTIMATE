@@ -30,12 +30,12 @@ If a data object is specified, the mass estiamtes and additional results will be
 }
 \author{Nicolas E. Campione}
 \references{
-  Anderson, J. F., Hall-Martin, A. and Russell, D.A. (1985) Long-bone circumference and weight in mammals, birds and dinosaurs. Journal of the Zoological Society of London A, 207, 53-61.
+  Anderson, J. F., Hall-Martin, A. and Russell, D. A. (1985) Long-bone circumference and weight in mammals, birds and dinosaurs. Journal of the Zoological Society of London A, 207, 53-61.
   
 	Campione, N. E. and Evans, D. C. (2012) A universal scaling relationship between body mass and proximal limb bone dimensions in quadrupedal terrestrial tetrapods. BMC Biology, 10, 60.
 	
-	Campione, N. E. (in review) Extrapolation of a universal scaling relationship for estimating body masses in extinct terrestrial vertebrates.
-
+  Campione, N. E. (2017) Extrapolation of a universal scaling relationship for estimating body masses in extinct terrestrial vertebrates. Paleobiology, 43, 693-699.
+  
   Mazzetta, G. V., Christiansen, P. and Farina, R. A. (2004) Giants and bizzares: body size of some southern South American Cretaceous dinosaurs. Historical Biology, 16, 71-83.
 }
 \seealso{

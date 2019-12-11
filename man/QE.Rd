@@ -35,7 +35,7 @@ Eight numeric values or columns are returned if \code{quadratic = TRUE} (identif
 \references{
 	Campione, N. E. and Evans, D. C. (2012) A universal scaling relationship between body mass and proximal limb bone dimensions in quadrupedal terrestrial tetrapods. BMC Biology, 10, 60.
 	
-	Campione, N. E. (in review) Extrapolation of a universal scaling relationship for estimating body masses in extinct terrestrial vertebrates.
+	Campione, N. E. (2017) Extrapolation of a universal scaling relationship for estimating body masses in extinct terrestrial vertebrates. Paleobiology, 43 (4), 693-699.
 }
 \seealso{
   \code{\link{cQE}}

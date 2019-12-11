@@ -34,7 +34,7 @@ Nine numeric values or columns are returned (all masses are in grams):
   
 	Campione, N. E., Evans, D. C., Brown, C. M. and Carrano, M. T. (2014) Body mass estimation in non-avian bipeds using a theoretical conversion to quadruped stylopodial proportions. Methods in Ecology and Evolution, 5(9), 913-923.
 
-  Campione, N. E. (in review) Extrapolation of a universal scaling relationship for estimating body masses in extinct terrestrial vertebrates.
+  Campione, N. E. (2017) Extrapolation of a universal scaling relationship for estimating body masses in extinct terrestrial vertebrates. Paleobiology, 43, 693-699.
   
   Christiansen, P. and Farina, R. A. (2004) Mass prediction in theropod dinosaurs. Historical Biology, 16, 85-92.
 }
