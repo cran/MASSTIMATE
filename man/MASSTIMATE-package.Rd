@@ -2,13 +2,13 @@
 \alias{MASSTIMATE}
 \docType{package}
 \title{Body mass estimation equations for vertebrates}
-\description{Estimation equations are from a variety of sources but are, in general, based on regressions between skeletal measurements (e.g., femoral circumference) and body mass in living taxa}
+\description{Estimation equations are from a variety of sources and associated error estimation.}
 \details{
 \tabular{ll}{
 Package: \tab MASSTIMATE\cr
 Type: \tab Package\cr
-Version: \tab 1.4\cr
-Date: \tab 2019-09-12\cr
+Version: \tab 2.0\cr
+Date: \tab 2020-09-01\cr
 License: \tab GPL(>= 2)\cr
 }
 }
@@ -27,6 +27,8 @@ Campione, N. E. and Evans, D. C. (2012) A universal scaling relationship between
 Campione, N. E., Evans, D. C., Brown, C. M. and Carrano, M. T. (2014) Body mass estimation in non-avian bipeds using a theoretical conversion to quadruped stylopodial proportions. Methods in Ecology and Evolution, 5(9), 913-923.
 
 Campione, N. E. (2017) Extrapolation of a universal scaling relationship for estimating body masses in extinct terrestrial vertebrates. Paleobiology, 43, 693-699.
+
+Campione, N. E. and Evans, D. C. (2020) The accuracy and precision of body mass estimation in non-avian dinosaurs. Biological Reviews.
 
 Christiansen, P. and Farina, R. A. (2004) Mass prediction in theropod dinosaurs. Historical Biology, 16, 85-92.
 
