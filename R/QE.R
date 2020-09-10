@@ -9,6 +9,8 @@ function(HFC=NULL, HC, FC, equation="raw", quadratic=FALSE, data=NULL,  return_P
     ppe.err<-QE*0.2563
     upper.QE.PPE<-round(QE + ppe.err, 1)
     lower.QE.PPE<-round(QE - ppe.err, 1)
+    upper.QE.95PI <- round(10^(ols.fit.pred[,3]), 1)
+    lower.QE.95PI <- round(10^(ols.fit.pred[,2]), 1)
     if(quadratic) {
       quad.fit <- mod_QUAD(verbose = TRUE, plot = FALSE)
       quad.fit.pred <- predict(quad.fit$model, newdata = data.frame(xvar = log10(HFC)), interval = "prediction")
@@ -17,10 +19,6 @@ function(HFC=NULL, HC, FC, equation="raw", quadratic=FALSE, data=NULL,  return_P
       ppe.err <- qQE * 0.2537316
       upper.qQE.PPE <- round(qQE + ppe.err,  1)
       lower.qQE.PPE <- round(qQE - ppe.err,  1)
-    }
-    if(return_PI) {
-      upper.QE.95PI <- round(10^(ols.fit.pred[,3]), 1)
-      lower.QE.95PI <- round(10^(ols.fit.pred[,2]), 1)
       upper.qQE.95PI <- round(10^(quad.fit.pred[,3]), 1)
       lower.qQE.95PI <- round(10^(quad.fit.pred[,2]), 1)
     }
